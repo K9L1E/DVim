@@ -70,7 +70,8 @@ return packer.startup(function(use)
 
   -- Colorschemes
   use({ "folke/tokyonight.nvim" })
-  use({ "chriskempson/base16-vim" })
+  -- use({ "chriskempson/base16-vim" })
+  use({ "RRethy/nvim-base16" })
   use({ "flazz/vim-colorschemes" })
   use({ "wincent/pinnacle" })
 
@@ -184,7 +185,7 @@ return packer.startup(function(use)
   -- Other
   use({ "mattn/emmet-vim" })
   use({ "Valloric/MatchTagAlways" })
-  use({ "wakatime/vim-wakatime" })
+  -- use({ "wakatime/vim-wakatime" })
   use({ "voldikss/vim-translator" })
   use({ "dhruvasagar/vim-table-mode" })
   use({ "machakann/vim-highlightedyank" })

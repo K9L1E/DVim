@@ -41,8 +41,7 @@ M.config = function()
       timeout = 200,
     },
     view = {
-      width = 30,
-      height = 30,
+      width = 45,
       hide_root_folder = false,
       side = "left",
       preserve_window_proportions = false,
@@ -83,6 +82,9 @@ M.config = function()
     trash = {
       cmd = "trash",
       require_confirm = true,
+    },
+    notify = {
+      threshold = vim.log.levels.ERROR,
     },
     log = {
       enable = false,

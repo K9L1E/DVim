@@ -51,9 +51,10 @@ M.config = function()
       current_line_blame_opts = {
         virt_text = true,
         virt_text_pos = "eol", -- 'eol' | 'overlay' | 'right_align'
-        delay = 1000,
+        delay = 250,
         ignore_whitespace = false,
       },
+      current_line_blame_formatter = '<author>, <author_time:%d.%m.%Y> - <summary>',
       current_line_blame_formatter_opts = {
         relative_time = false,
       },
